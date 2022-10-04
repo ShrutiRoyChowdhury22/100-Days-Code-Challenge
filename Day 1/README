@@ -1,0 +1,49 @@
+Question: 
+         Get input from the user, print all the odd and even numbers between them .
+
+Programming Language:
+                     JAVA
+
+Input: 
+      Two positive integer m, upper limit and n, lower limit .
+
+Output:
+       odd number: 
+	for(i from n to m)
+		if(i is odd integer)
+		-->i
+	even number:
+	for(i from n to m)
+		if(i is even integer)
+		-->i
+		
+
+Test Cases:
+	   Case 1: n=2 and m=5
+		   for(i=2; i<=5; i++)
+			if(2%2 != 0) --> False
+			i++ --> i = 3
+			if(3%2 != 0) --> True
+			print 3
+			i++ --> i=4
+		   	if(4%2 !=0) --> False
+			i++ --> i=5
+			if(5%2 !=0) --> True
+			print 5
+
+           Case 2: n=10 and m=13
+		   for(i=10;i<=14;i++)
+			if(10%2 == 0) -->True
+			print 10
+			i++ --> 11
+			if(11%2 == 0) --> False
+			i++ --> 12
+			if(12%2 == 0) --> True
+			print 12
+			i++ --> 13
+			if(13%2 == 0) --> False
+			
+	
+Logic:
+      If i is not divisible by 2,then it will satisfied if condition specified on line number 11.
+      If i is divisible by 2,then it will satisfied if condition specified on line number 17.
