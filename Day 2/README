@@ -1,0 +1,51 @@
+Question: 
+         Write a program to find the size of garments using switch case:
+	 Take input from use as a single character:
+		s-extra small
+		S-small
+		M-medium
+		l-large
+		L-extra Large .
+
+Programming Language:
+                     JAVA
+
+Input: 
+      Size of array which is stored a variable named opr.
+
+Output:
+       Categorize garments based on their size in extra small, small, medium, large, extra large.
+		
+
+Test Cases:
+	   Case 1: 
+		  Size = s
+			print-"extra small"
+
+           Case 2: 
+		  Size = S
+			 print-"small"
+	   Case 3:
+		  Size = M
+			 print-"medium"
+	   Case 4:
+		  Size = l
+			 print-"large"
+	   Case 5:
+		 Size = L
+			print-"extra large"
+	   Case 6:
+		 Size = A
+			print-"wrong"
+			
+	
+Logic:
+      Here the following problem is sloving in switch case statement , where first taking an input from user that is "s","S","M","l","L".
+	now taking choice from user which is a character form will be stored in char variable 'opr'.
+	When user entered "s" then case 1 is satisfied, the program will print "extra small" 
+	When user entered "S" then case 2 is satisfied, the program will print "small" 
+	When user entered "M" then case 3 is satisfied, the program will print "medium" 
+	When user entered "l" then case 4 is satisfied, the program will print "large" 
+	When user entered "L" then case 5 is satisfied, the program will print "extra large" 
+	When user entered "A" then case 6 is satisfied, the program will print "wrong" 
+	
