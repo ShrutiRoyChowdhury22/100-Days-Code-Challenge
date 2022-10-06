@@ -1,0 +1,38 @@
+Question:
+	 A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
+
+
+Programming Language:
+		     JAVA
+
+Input:
+      An integer variable , year.
+      A double variable , salary.
+
+Output:
+       Net bonus amount if number of years is more than 5 else no bonus.
+
+Test Case:
+	  Case 1:
+		 Salary = 15000
+		 year = 6
+		      print = 750.0
+
+	   Case 2:
+		 Salary = 10000
+		 year = 3
+		      print = no bonus
+
+	   Case 3:
+		  Salary = 0000
+		   year = 2
+			print = no bonus
+
+	   Case 4:
+		  Salary = 0000
+		   year = 7
+			print = 00.0
+
+Logic:
+      My program has 3 variables, one integer and two double variables.User input the salary of an employee and the working years .
+	If the working years are more than five or equals to five then print the bonus amounts, else print no bonus.
