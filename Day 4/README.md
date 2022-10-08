@@ -1,16 +1,16 @@
-#Question:
+# Question:
 	 Write a program to find the factorial of any number entered by the user.
 
-#Programming Language:
+# Programming Language:
 		     JAVA
 
-#Input:
+# Input:
       Any  positive integer n.
 
-#Output:
+# Output:
        Print the factorial of the number which is entered by user.
 
-#Test Cases:
+# Test Cases:
 	   Case 1:
 		  n = 5
 		    print = 120
@@ -21,7 +21,7 @@
 		  n = 10
       		    print = 3628800
 
-#Logic:
+# Logic:
       The value of factorial will be store in f. 
 	If , n = 5
 f = f*i(where i<=n)
