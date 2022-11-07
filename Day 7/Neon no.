@@ -6,13 +6,12 @@ public class neon_number {
         System.out.println("Enter any no");
         n=sc.nextInt();
         p=n*n;
-        int num = n;
-        while (n>0){
-            r=n%10;
-            sum= sum*r;
-            n=n/10;
+        while (p!=0){
+            r=p%10;
+            sum= sum+r;
+            p=p/10;
         }
-        if (sum==num){
+        if (sum==n){
             System.out.println("Neon Number");
         }
         else{
@@ -20,3 +19,4 @@ public class neon_number {
         }
     }
 }
+
