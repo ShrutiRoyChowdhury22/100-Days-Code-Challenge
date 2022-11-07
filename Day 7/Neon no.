@@ -1,0 +1,22 @@
+import java.util.*;
+public class neon_number {
+    public static void main(String[] args) {
+        int n,r,sum=0,p;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter any no");
+        n=sc.nextInt();
+        p=n*n;
+        int num = n;
+        while (n>0){
+            r=n%10;
+            sum= sum*r;
+            n=n/10;
+        }
+        if (sum==num){
+            System.out.println("Neon Number");
+        }
+        else{
+            System.out.println("Not");
+        }
+    }
+}
